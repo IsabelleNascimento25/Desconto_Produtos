@@ -1,16 +1,4 @@
 
-
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Calculo de Salário</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel="stylesheet" href="index.css" media='screen' href='main.css'>
-    
-</head>
-<body> 
 <!-- a) Escreva um algoritmo que receba o valor de um produto e calcule um desconto de 7%, 
 exibindo para o usuário o valor original, o valor do desconto e o valor com o desconto.
 b) Escreva um algoritmo que receba um valor, calcule e mostre um desconto de 27%.
@@ -26,6 +14,7 @@ c) Escreva um algoritmo que receba o valor de um produto, acrescente 16% a esse 
         <input name="porcentagem" type="number">
         <form action="">
    <h1> Parcelar esse produto em quantas vezes? </h1>
+   <p>Lembrando que tera um juros de 16% por parcelar em vezes</p>
    <br>
     <input type="number" name="parcela">
         <button type="submit"> Enter </button>
@@ -57,5 +46,3 @@ if (isset($_GET['num']) && isset($_GET['porcentagem']) && (isset($_GET['parcela'
 }
 }
 ?>
-</body>
-</html>
